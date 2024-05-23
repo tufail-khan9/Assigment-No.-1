@@ -100,24 +100,18 @@ function changData(){
         }
 
         //this function is convert the numbers into array simply and display
-        // function maxData() {
-        //     // Step 1: Get all the values from input fields named 'name[]'
-        //     let inputs = parseFloat(document.getElementsByName('name[]'));
-        //     let temp = '' + inputs
-        //     let intArr = [...temp].reduce((acc, n) => acc.concat(+n), []);
+        function maxData() {
+            // Step 1: Get all the values from input fields named 'name[]'
+            let inputs = parseFloat(document.getElementsByName('name[]'));
+            let temp = '' + inputs
+            let intArr = [...temp].reduce((acc, n) => acc.concat(+n), []);
             
-        //     // numberArray.sort(function(a, b){return b - a});
-        //     document.getElementById("para8").innerHTML = intArr;
+            // numberArray.sort(function(a, b){return b - a});
+            document.getElementById("para8").innerHTML = intArr;
             
-        // }
+        }
         
 
 
         // //find largest
-        function maxData() {
-            let inputs = parseFloat(document.getElementsByName('input_largest').value);
-            let large = 
-            for()
-
-
-        }
+        
